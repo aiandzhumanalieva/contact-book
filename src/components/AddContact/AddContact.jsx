@@ -18,13 +18,6 @@ const AddContact = ({props}) => {
   // }
 
   // const handleSubmit = (event) => {
-  //   event.preventDefault()
-  //   if (!contact.name || !contact.number) return
-
-  //   //Вызываю addUser из хука из App
-  //   props.addContact(contact)
-  //   //Обновляем форму через setUser 
-  //   setContact(initialFormState)
   // }
 
 
