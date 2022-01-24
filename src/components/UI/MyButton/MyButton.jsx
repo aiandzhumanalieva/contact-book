@@ -1,8 +1,9 @@
 import React from 'react';
 
-const MyButton = ({children}) => {
-  return <button className='border  rounded-md bg-pink-300 mx-2'
-  >{children}</button>;
+const MyButton = ({children, onClick}) => {
+  return <button 
+  className='w-32 ml-4 border-2 border-solid border-violet-300 rounded-xl my-3 text-violet-300 align-center'
+  onClick={onClick}>{children}</button>;
 };
 
 export default MyButton;

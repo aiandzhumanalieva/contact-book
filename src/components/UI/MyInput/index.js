@@ -1,2 +1,2 @@
-import MyInput from './MyInput'
+import MyInput from "./MyInput";
 export default MyInput;
